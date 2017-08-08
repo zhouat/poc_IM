@@ -1,0 +1,9 @@
+# poc_IM
+|CVE     |原因     |触发方式|危害    |url  |desp|
+|:------:|---------|--------|--------|-----|---|
+|CVE-2017-11752|memory leaks|*.magick *.aai|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/628)|The ReadMAGICKImage function in coders/magick.c in ImageMagick 7.0.6-4 allows remote attackers to cause a denial of service (memory leak) via a crafted file. MagickCore/memory.c:464|
+|CVE-2017-12427|memory leaks|* output.msl|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/636)|The ProcessMSLScript function in coders/msl.c in ImageMagick before 6.9.9-5 and 7.x before 7.0.6-5 allows remote attackers to cause a denial of service (memory leak) via a crafted file, related to the WriteMSLImage function.
+|<font color=red>CVE-2017-11754</font>|memory leaks|* *.picon|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/633)|The WritePICONImage function in coders/xpm.c in ImageMagick 7.0.6-4 allows remote attackers to cause a denial of service (memory leak) via a crafted file that is mishandled in an OpenPixelCache call. Memory-Leak in AcquireAlignedMemory MagickCore/memory.c:262
+|<font color=red>CVE-2017-11755</font>|memory leaks|* *.picon|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/634)|The WritePICONImage function in coders/xpm.c in ImageMagick 7.0.6-4 allows remote attackers to cause a denial of service (memory leak) via a crafted file that is mishandled in an AcquireSemaphoreInfo call.  Memory-Leak in AcquireSemaphoreMemory MagickCore/semaphore.c:154
+|CVE-2017-11753|Heap-buffer-overflow READ|* output.json|info leak|[link](https://github.com/ImageMagick/ImageMagick/issues/629)|The GetImageDepth function in MagickCore/attribute.c in ImageMagick 7.0.6-4 might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted Flexible Image Transport System (FITS) file.
+
