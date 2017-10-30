@@ -6,4 +6,5 @@
 |<font color=red>CVE-2017-11754</font>|memory leaks|* *.picon|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/633)|The WritePICONImage function in coders/xpm.c in ImageMagick 7.0.6-4 allows remote attackers to cause a denial of service (memory leak) via a crafted file that is mishandled in an OpenPixelCache call. Memory-Leak in AcquireAlignedMemory MagickCore/memory.c:262
 |<font color=red>CVE-2017-11755</font>|memory leaks|* *.picon|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/634)|The WritePICONImage function in coders/xpm.c in ImageMagick 7.0.6-4 allows remote attackers to cause a denial of service (memory leak) via a crafted file that is mishandled in an AcquireSemaphoreInfo call.  Memory-Leak in AcquireSemaphoreMemory MagickCore/semaphore.c:154
 |CVE-2017-11753|Heap-buffer-overflow READ|* output.json|info leak|[link](https://github.com/ImageMagick/ImageMagick/issues/629)|The GetImageDepth function in MagickCore/attribute.c in ImageMagick 7.0.6-4 might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted Flexible Image Transport System (FITS) file.
-
+||memory leaks|* output.pcd|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/842)|
+||memory leaks|* output.magick|Dos|[link](https://github.com/ImageMagick/ImageMagick/issues/844)|
